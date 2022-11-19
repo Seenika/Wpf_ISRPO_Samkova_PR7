@@ -19,30 +19,66 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Label Content="Первые блюда:" Margin="0,0,0,250" FontSize="18"/>
-            <Button Content="Суп Сицилия" HorizontalContentAlignment="Left"  FontSize="16" Margin="0,42,84,208"/>
-            <Button Content="Крем суп" HorizontalContentAlignment="Left" FontSize="16" Margin="0,94,84,156"/>
-            <Button Content="Уха по царски" HorizontalContentAlignment="Left" FontSize="16" Margin="0,144,84,106"/>
-            <Button Content="Кремлёвский борщ" HorizontalContentAlignment="Left" FontSize="16" Margin="0,197,84,55"/>
+            <Label Content="Первые блюда:" FontSize="18" Height="37" VerticalAlignment="Top"/>
+            <Button x:Name="Sichilia" Click="Sichilia_Click" Content="Суп Сицилия" HorizontalContentAlignment="Left"  FontSize="16" Margin="0,42,0,0" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" Width="166">
+                <Button.ToolTip>
+                    <ToolTip Width="200" Height="150">
+                        <StackPanel>
+                            <TextBlock Text="Сицилия"/>
+                            <Image Source="sichilia.png"/>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Button x:Name="Kremsup" Click="Kremsup_Click" Content="Крем суп" HorizontalContentAlignment="Left" FontSize="16" Margin="0,94,0,0" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" Width="166">
+                <Button.ToolTip>
+                    <ToolTip Width="200" Height="150">
+                        <StackPanel>
+                            <TextBlock Text="Крем суп"/>
+                            <Image Source="kremsup.jpg"/>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Button x:Name="UhaPoCharski" Click="UhaPoCharski_Click" Content="Уха по царски" HorizontalContentAlignment="Left" FontSize="16" Margin="0,144,0,0" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" Width="166">
+                <Button.ToolTip>
+                    <ToolTip Width="200" Height="150">
+                        <StackPanel>
+                            <TextBlock Text="Уха по царски"/>
+                            <Image Source="/UhaPoCharski.jpg"/>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Button x:Name="Kremlovskiy" Click="Kremlovskiy_Click" Content="Кремлёвский борщ" HorizontalContentAlignment="Left" FontSize="16" Margin="0,197,0,0" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Width="166">
+                <Button.ToolTip>
+                    <ToolTip Width="200" Height="150">
+                        <StackPanel>
+                            <TextBlock Text="Кремлёвский борщ"/>
+                            <Image Source="/КремлёвскийБорщ.jpeg"/>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
 
-            <Label Content="Закуски" FontSize="18" Grid.Row="1" Margin="0,0,0,250"/>
+            <Label Content="Закуски" FontSize="18" Margin="0,0,0,0" HorizontalAlignment="Left" Grid.Row="1" Width="250" Height="37" VerticalAlignment="Top"/>
         </Grid>
 
-        <Label Content="Вторые блюда" FontSize="18" Margin="0,0,0,536" Grid.Column="1"/>
-        <Button Content="Жульен с курицей &#xD;&#xA;и грибами" HorizontalContentAlignment="Left"  FontSize="16" Margin="250,43,84,484" Grid.ColumnSpan="2"/>
+        <Label Content="Вторые блюда" Grid.Column="1" FontSize="18" Margin="0,0,0,0" Height="38" VerticalAlignment="Top" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="251"/>
+        <Button Content="Жульен с курицей &#xD;&#xA;и грибами" Grid.Column="1" HorizontalContentAlignment="Left"  FontSize="16" Margin="0,43,0,0" Height="47" VerticalAlignment="Top"  HorizontalAlignment="Left" Width="167"/>
 
         <Grid Grid.Column="2">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Label Content="Десерты" FontSize="18" Margin="0,0,0,247"/>
-            
-            <Label Content="Наптки" FontSize="18" Grid.Row="1" Margin="0,0,0,250"/>
-            <Button Content="Махито" HorizontalContentAlignment="Left" Grid.Row="1" FontSize="16" Margin="0,42,84,208"/>
-            <Button Content="Холодный чай" HorizontalContentAlignment="Left" Grid.Row="1" FontSize="16" Margin="0,94,84,156"/>
-            <Button Content="Молочный коктель" HorizontalContentAlignment="Left" Grid.Row="1" FontSize="16" Margin="0,144,84,106"/>
-            <Button Content="Смузи" HorizontalContentAlignment="Left" Grid.Row="1" FontSize="16" Margin="0,197,84,55"/>
+            <Label Content="Десерты" FontSize="18" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Width="250"/>
+
+            <Label Content="Наптки" FontSize="18" Grid.Row="1" Margin="0,0,0,0" Height="37" VerticalAlignment="Top" Grid.RowSpan="2" HorizontalAlignment="Left" Width="250"/>
+            <Button Content="Махито" HorizontalContentAlignment="Left" Grid.Row="1" FontSize="16" Margin="0,42,0,0" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" Width="166"/>
+            <Button Content="Холодный чай" HorizontalContentAlignment="Left" Grid.Row="1" FontSize="16" Margin="0,94,0,0" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" Width="166"/>
+            <Button Content="Молочный коктель" HorizontalContentAlignment="Left" Grid.Row="1" FontSize="16" Margin="0,144,0,0" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" Width="166"/>
+            <Button Content="Смузи" HorizontalContentAlignment="Left" Grid.Row="1" FontSize="16" Margin="0,197,0,0" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Width="166"/>
         </Grid>
     </Grid>
 </Window>

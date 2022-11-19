@@ -25,5 +25,24 @@ namespace Wpf_ISRPO_Samkova_PR7
             InitializeComponent();
         }
 
+        private void Sichilia_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Филе рыбное, Томатная паста, Морковь, Сельдерей корневой, Лук красный, Сельдерей листовой, Лимон, Масло растительное, Порошок чесночный, Фенхель, Соль, Перец черный");
+        }
+
+        private void Kremsup_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Шампиньёны, Куриный бульён, Лук, Сливочное масло, Мука, Молоко, Соль, Молотый чёрный перец, Петрашка");
+        }
+
+        private void UhaPoCharski_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Филе осётра без кожи, Филе сёмги, Сом мраморный филе, Масло сливочное, Картофель, Морковь, Лук, Помидоры, Лимон, Водка, Маслины, Соль, Молотый чёрный перец, Петрашка");
+        }
+
+        private void Kremlovskiy_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Баранина, Свёкла, Капуста, Морковь, Лук, Лимонный сок, Чеснок, Петрушка, ТОматная паста, Лавровый лист, Растительное масло, Уксус, Соль, Молотый чёрный перец");
+        }
     }
 }
