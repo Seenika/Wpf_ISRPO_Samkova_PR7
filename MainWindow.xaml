@@ -5,9 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_ISRPO_Samkova_PR7"
         mc:Ignorable="d"
-        Title="Блок C# (ур. 4-5)" Height="610" Width="477">
-    <Grid>
-        
+        Title="Блок C# (ур. 4-5)" Height="610" Width="1022">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
 
+        <Label Content="Первые блюда:" Margin="0,0,0,536" FontSize="18"/>
+        <Label Content="Вторые блюда" FontSize="18" Margin="0,0,0,536" Grid.Column="1"/>
+        <Label Content="Десерты" FontSize="18" Grid.Column="2" Margin="0,0,0,536"/>
+
+        <Grid Grid.Column="3">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Content="Наптки" FontSize="18" Margin="0,0,0,250"/>
+            <Label Content="Закуски" FontSize="18" Grid.Row="1" Margin="0,0,0,250"/>
+        </Grid>
     </Grid>
 </Window>
