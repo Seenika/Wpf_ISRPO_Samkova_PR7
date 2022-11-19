@@ -44,5 +44,20 @@ namespace Wpf_ISRPO_Samkova_PR7
         {
             MessageBox.Show("Баранина, Свёкла, Капуста, Морковь, Лук, Лимонный сок, Чеснок, Петрушка, ТОматная паста, Лавровый лист, Растительное масло, Уксус, Соль, Молотый чёрный перец");
         }
+
+        private void Shulien_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Куриная грудка, Грибы, Сыр, Сливки, Лук");
+        }
+
+        private void Dzhamba_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Сщсиски, Рис, Лук, Болгарский перец, Помидоры, Чеснок, Томатная паста, Масло растительное, Петрушка, Соль, Молотый чёрный перец");
+        }
+
+        private void Lapsha_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Луриная грудка, Лапша удон, Перец сладкий, Морковь, Лук, Чесное, Корень имбиря, Лук зелёный, Масло растительное, Соус терияки, Соус соевый, Соль, Молотый чёрный перец, Кунжут обжарнный");
+        }
     }
 }

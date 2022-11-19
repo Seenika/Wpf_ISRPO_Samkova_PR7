@@ -106,5 +106,14 @@
   <ItemGroup>
     <Resource Include="КремлёвскийБорщ.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Жульен.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recept_1661_3dio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lapsha-udon-s-kuritsiei-i-ovoshchami-v-sousie-tieriiaki-основное-фото-рецепта.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
