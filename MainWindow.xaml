@@ -15,6 +15,11 @@
         </Grid.ColumnDefinitions>
 
         <Label Content="Первые блюда:" Margin="0,0,0,536" FontSize="18"/>
+        <Button Content="Суп Сицилия" HorizontalContentAlignment="Left" Margin="0,43,72,495" FontSize="16"/>
+        <Button Content="Крем суп" HorizontalContentAlignment="Left" Margin="0,89,72,449" FontSize="16"/>
+        <Button Content="Уха по царски" HorizontalContentAlignment="Left" Margin="0,136,72,402" FontSize="16"/>
+        <Button Content="Кремлёвский борщ" HorizontalContentAlignment="Left" Margin="0,181,72,357" FontSize="16"/>
+
         <Label Content="Вторые блюда" FontSize="18" Margin="0,0,0,536" Grid.Column="1"/>
         <Label Content="Десерты" FontSize="18" Grid.Column="2" Margin="0,0,0,536"/>
 
