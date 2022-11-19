@@ -24,5 +24,6 @@ namespace Wpf_ISRPO_Samkova_PR7
         {
             InitializeComponent();
         }
+
     }
 }
