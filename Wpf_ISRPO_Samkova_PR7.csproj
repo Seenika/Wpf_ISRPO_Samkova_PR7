@@ -115,5 +115,17 @@
   <ItemGroup>
     <Resource Include="lapsha-udon-s-kuritsiei-i-ovoshchami-v-sousie-tieriiaki-основное-фото-рецепта.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="махито.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ХолодныйЧай.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="molochny-kokteil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="smuzi_s_bananom_i_kivi-623664.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

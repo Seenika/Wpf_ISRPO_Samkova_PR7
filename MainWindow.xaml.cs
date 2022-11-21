@@ -62,22 +62,22 @@ namespace Wpf_ISRPO_Samkova_PR7
 
         private void Mahito_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Свежая мята, Лайм, Спрайт, Лёд, Тросниковый сахар");
         }
 
         private void HolodniyChay_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Зелёный сорт заварки, Мята, Лёд, Лайм, Сахар");
         }
 
         private void MolochniyKoktel_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Молоко, Пломбир, Сахарная пудра");
         }
 
         private void Smuzi_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Киви, Банан, Шпинат, Йогурт, Сахар");
         }
     }
 }

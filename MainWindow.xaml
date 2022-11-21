@@ -107,8 +107,8 @@
                 <Button.ToolTip>
                     <ToolTip Width="200" Height="150">
                         <StackPanel>
-                            <TextBlock Text=""/>
-                            <Image Source=""/>
+                            <TextBlock Text="Махито"/>
+                            <Image Source="/махито.png"/>
                         </StackPanel>
                     </ToolTip>
                 </Button.ToolTip>
@@ -117,8 +117,8 @@
                 <Button.ToolTip>
                     <ToolTip Width="200" Height="150">
                         <StackPanel>
-                            <TextBlock Text=""/>
-                            <Image Source=""/>
+                            <TextBlock Text="Холодный чай"/>
+                            <Image Source="/ХолодныйЧай.jpg"/>
                         </StackPanel>
                     </ToolTip>
                 </Button.ToolTip>
@@ -127,18 +127,18 @@
                 <Button.ToolTip>
                     <ToolTip Width="200" Height="150">
                         <StackPanel>
-                            <TextBlock Text=""/>
-                            <Image Source=""/>
+                            <TextBlock Text="Молочный коктель"/>
+                            <Image Source="/molochny-kokteil.jpg"/>
                         </StackPanel>
                     </ToolTip>
                 </Button.ToolTip>
             </Button>
-            <Button x:Name="Smuzi" Click="Smuzi_Click" Content="Смузи" HorizontalContentAlignment="Left" Grid.Row="1" FontSize="16" Margin="0,197,0,0" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Width="220">
+            <Button x:Name="Smuzi" Click="Smuzi_Click" Content="Зелёный смузи" HorizontalContentAlignment="Left" Grid.Row="1" FontSize="16" Margin="0,197,0,0" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Width="220">
                 <Button.ToolTip>
                     <ToolTip Width="200" Height="150">
                         <StackPanel>
-                            <TextBlock Text=""/>
-                            <Image Source=""/>
+                            <TextBlock Text="Зелёный смузи"/>
+                            <Image Source="/smuzi_s_bananom_i_kivi-623664.jpg"/>
                         </StackPanel>
                     </ToolTip>
                 </Button.ToolTip>
