@@ -127,5 +127,11 @@
   <ItemGroup>
     <Resource Include="smuzi_s_bananom_i_kivi-623664.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="p_O.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="prostye-vafelnye-trubochki-s-varenoj-sgushhenkoj.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

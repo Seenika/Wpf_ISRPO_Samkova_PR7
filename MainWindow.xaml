@@ -61,6 +61,16 @@
             </Button>
 
             <Label Content="Закуски" FontSize="18" Margin="0,0,0,0" HorizontalAlignment="Left" Grid.Row="1" Width="250" Height="37" VerticalAlignment="Top"/>
+            <Button x:Name="Brusketa" Click="Brusketa_Click" Content="Брускетта с фаршем и &#xD;&#xA;овощами" HorizontalContentAlignment="Left"  FontSize="16" Margin="0,42,0,0" Height="51" VerticalAlignment="Top" Grid.Row="1" HorizontalAlignment="Left" Width="202">
+                <Button.ToolTip>
+                    <ToolTip Width="200" Height="150">
+                        <StackPanel>
+                            <TextBlock Text="Брускетта с фаршем и овощами"/>
+                            <Image Source="/p_O.jpg"/>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
         </Grid>
 
         <Label Content="Вторые блюда" FontSize="18" Margin="6,0,0,0" Height="38" VerticalAlignment="Top" HorizontalAlignment="Left" Width="235" Grid.Column="1"/>
@@ -101,7 +111,17 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <Label Content="Десерты" FontSize="18" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Width="250"/>
-
+            <Button x:Name="Vafli" Click="Vafli_Click" Content="Вафельные трубочки" HorizontalContentAlignment="Left" FontSize="16" Margin="0,42,0,0" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" Width="220">
+                <Button.ToolTip>
+                    <ToolTip Width="200" Height="150">
+                        <StackPanel>
+                            <TextBlock Text="Вафельные трубочки"/>
+                            <Image Source="/prostye-vafelnye-trubochki-s-varenoj-sgushhenkoj.jpg"/>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            
             <Label Content="Наптки" FontSize="18" Grid.Row="1" Margin="0,0,0,0" Height="37" VerticalAlignment="Top" Grid.RowSpan="2" HorizontalAlignment="Left" Width="250"></Label>
             <Button x:Name="Mahito" Click="Mahito_Click" Content="Махито" HorizontalContentAlignment="Left" Grid.Row="1" FontSize="16" Margin="0,42,0,0" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" Width="220">
                 <Button.ToolTip>

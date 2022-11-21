@@ -79,5 +79,15 @@ namespace Wpf_ISRPO_Samkova_PR7
         {
             MessageBox.Show("Киви, Банан, Шпинат, Йогурт, Сахар");
         }
+
+        private void Brusketa_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Булочка, Говяжий фарш, Огурцы, Майонез, Помидоры, Укроп, Молотый чёрный перец");
+        }
+
+        private void Vafli_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Мука, Яйца, Масло сливочное, Сахар, Соль, Ванилин, Масло растительное, Сгущёнка варёная, Сахарная пудра");
+        }
     }
 }
