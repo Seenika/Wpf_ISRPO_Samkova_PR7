@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_ISRPO_Samkova_PR7"
         mc:Ignorable="d"
-        Title="Блок C# (ур. 4-5)" Height="610" Width="1022">
+        Title="Блок C# (ур. 4-5)" Height="770" Width="1022">
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -29,7 +29,7 @@
                     </ToolTip>
                 </Button.ToolTip>
             </Button>
-            <RadioButton x:Name="Chena1" Margin="225,42,10,207" FontSize="22">250</RadioButton>
+            <Button x:Name="Chena1" Margin="225,42,0,0" FontSize="22" Height="38" VerticalAlignment="Top" HorizontalAlignment="Left" Width="99" Click="Chena1_Click">250</Button>
             <Button x:Name="Kremsup" Click="Kremsup_Click" Content="Крем суп" HorizontalContentAlignment="Left" FontSize="16" Margin="0,94,0,0" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" Width="202">
                 <Button.ToolTip>
                     <ToolTip Width="200" Height="150">
@@ -40,7 +40,7 @@
                     </ToolTip>
                 </Button.ToolTip>
             </Button>
-            <RadioButton x:Name="Chena2" Margin="225,93,10,156" FontSize="22">300</RadioButton>
+            <Button x:Name="Chena2" Margin="225,93,0,0" FontSize="22" Height="38" VerticalAlignment="Top" HorizontalAlignment="Left" Width="99" Click="Chena2_Click">300</Button>
             <Button x:Name="UhaPoCharski" Click="UhaPoCharski_Click" Content="Уха по царски" HorizontalContentAlignment="Left" FontSize="16" Margin="0,144,0,0" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" Width="202">
                 <Button.ToolTip>
                     <ToolTip Width="200" Height="150">
@@ -51,7 +51,7 @@
                     </ToolTip>
                 </Button.ToolTip>
             </Button>
-            <RadioButton x:Name="Chena3" Margin="225,143,10,106" FontSize="22">500</RadioButton>
+            <Button x:Name="Chena3" Margin="225,143,0,0" FontSize="22" HorizontalAlignment="Left" Width="99" Height="38" VerticalAlignment="Top" Click="Chena3_Click">500</Button>
             <Button x:Name="Kremlovskiy" Click="Kremlovskiy_Click" Content="Кремлёвский борщ" HorizontalContentAlignment="Left" FontSize="16" Margin="0,197,0,0" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Width="202">
                 <Button.ToolTip>
                     <ToolTip Width="200" Height="150">
@@ -62,7 +62,7 @@
                     </ToolTip>
                 </Button.ToolTip>
             </Button>
-            <RadioButton x:Name="Chena4" Margin="225,198,10,51" FontSize="22">300</RadioButton>
+            <Button x:Name="Chena4" Margin="225,198,0,0" FontSize="22" HorizontalAlignment="Left" Width="99" Height="38" VerticalAlignment="Top" Click="Chena4_Click">300</Button>
 
             <Label Content="Закуски" FontSize="18" Margin="0,0,0,0" HorizontalAlignment="Left" Grid.Row="1" Width="250" Height="37" VerticalAlignment="Top"/>
             <Button x:Name="Brusketa" Click="Brusketa_Click" Content="Брускетта с фаршем и &#xD;&#xA;овощами" HorizontalContentAlignment="Left"  FontSize="16" Margin="0,42,0,0" Height="51" VerticalAlignment="Top" Grid.Row="1" HorizontalAlignment="Left" Width="202">
@@ -75,7 +75,7 @@
                     </ToolTip>
                 </Button.ToolTip>
             </Button>
-            <RadioButton x:Name="Chena5" Margin="225,49,10,200" FontSize="22" Grid.Row="1">200</RadioButton>
+            <Button x:Name="Chena5" Margin="225,49,0,0" FontSize="22" Grid.Row="1" HorizontalAlignment="Left" Width="99" Height="38" VerticalAlignment="Top" Click="Chena5_Click">200</Button>
         </Grid>
 
         <Label Content="Вторые блюда" FontSize="18" Margin="6,0,0,0" Height="38" VerticalAlignment="Top" HorizontalAlignment="Left" Width="235" Grid.Column="1"/>
@@ -89,7 +89,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <RadioButton x:Name="Chena6" Margin="225,44,10,484" FontSize="22" Grid.Column="1">300</RadioButton>
+        <Button x:Name="Chena6" Margin="225,44,0,0" FontSize="22" Grid.Column="1" HorizontalAlignment="Left" Width="99" Height="46" VerticalAlignment="Top" Click="Chena6_Click">300</Button>
         <Button x:Name="Dzhamba" Click="Dzhamba_Click" Content="Джамбалайя" Grid.Column="1" Margin="0,105,0,0" HorizontalAlignment="Left" HorizontalContentAlignment="Left" FontSize="16" Width="213" Height="40" VerticalAlignment="Top">
             <Button.ToolTip>
                 <ToolTip Width="200" Height="150">
@@ -100,7 +100,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <RadioButton x:Name="Chena7" Margin="225,109,10,429" FontSize="22" Grid.Column="1">350</RadioButton>
+        <Button x:Name="Chena7" Margin="225,109,0,0" FontSize="22" Grid.Column="1" HorizontalAlignment="Left" Width="99" Height="36" VerticalAlignment="Top" Click="Chena7_Click">350</Button>
         <Button x:Name="Lapsha" Click="Lapsha_Click" Content="Лапша удон с курицей &#xD;&#xA;и овощами в соусе &#xD;&#xA;терияки" Grid.Column="1" Margin="0,162,0,0" HorizontalAlignment="Left" HorizontalContentAlignment="Left" FontSize="16" Width="213" Height="79" VerticalAlignment="Top">
             <Button.ToolTip>
                 <ToolTip Width="200" Height="150">
@@ -111,7 +111,7 @@
                 </ToolTip>
             </Button.ToolTip>
         </Button>
-        <RadioButton x:Name="Chena8" Margin="225,178,10,349" FontSize="22" Grid.Column="1">300</RadioButton>
+        <Button x:Name="Chena8" Margin="225,178,0,0" FontSize="22" Grid.Column="1" HorizontalAlignment="Left" Width="99" Height="47" VerticalAlignment="Top" Click="Chena8_Click">300</Button>
 
         <Grid Grid.Column="2">
             <Grid.RowDefinitions>
@@ -171,11 +171,14 @@
                     </ToolTip>
                 </Button.ToolTip>
             </Button>
-            <RadioButton x:Name="Chena1_Copy" Margin="225,42,10,207" FontSize="22" Content="250"/>
-            <RadioButton x:Name="Chena1_Copy1" Margin="235,44,10,208" FontSize="22" Content="150" Grid.Row="1"/>
-            <RadioButton x:Name="Chena1_Copy2" Margin="235,94,10,159" FontSize="22" Content="100" Grid.Row="1"/>
-            <RadioButton x:Name="Chena1_Copy3" Margin="235,144,10,106" FontSize="22" Content="150" Grid.Row="1"/>
-            <RadioButton x:Name="Chena1_Copy4" Margin="235,197,10,55" FontSize="22" Content="200" Grid.Row="1"/>
+            <Button x:Name="Chena1_Copy" Margin="225,42,0,0" FontSize="22" Content="250" HorizontalAlignment="Left" Width="99" Height="38" VerticalAlignment="Top" Click="Chena1_Copy_Click"/>
+            <Button x:Name="Chena1_Copy1" Margin="235,44,0,0" FontSize="22" Content="150" Grid.Row="1" HorizontalAlignment="Left" Width="89" Height="35" VerticalAlignment="Top" Click="Chena1_Copy1_Click"/>
+            <Button x:Name="Chena1_Copy2" Margin="235,94,0,0" FontSize="22" Content="100" Grid.Row="1" HorizontalAlignment="Left" Width="89" Height="34" VerticalAlignment="Top" Click="Chena1_Copy2_Click"/>
+            <Button x:Name="Chena1_Copy3" Margin="235,144,0,0" FontSize="22" Content="150" Grid.Row="1" HorizontalAlignment="Left" Width="89" Height="37" VerticalAlignment="Top" Click="Chena1_Copy3_Click"/>
+            <Button x:Name="Chena1_Copy4" Margin="235,197,0,0" FontSize="22" Content="200" Grid.Row="1" HorizontalAlignment="Left" Width="89" Height="35" VerticalAlignment="Top" Click="Chena1_Copy4_Click"/>
         </Grid>
+        <TextBlock x:Name="Pokupka" Grid.Column="1" Margin="0,268,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="384" FontSize="16" Background="#FFF3F3F3"/>
+        <Label Grid.Column="1" Content="Итог:" Margin="15,657,0,0" Height="43" VerticalAlignment="Top" HorizontalAlignment="Left" Width="59" FontSize="18"/>
+        <TextBlock Grid.Column="1" x:Name="Itog" Text="0" Margin="74,662,0,0" Height="43" VerticalAlignment="Top" HorizontalAlignment="Left" Width="250" FontSize="18"/>
     </Grid>
 </Window>

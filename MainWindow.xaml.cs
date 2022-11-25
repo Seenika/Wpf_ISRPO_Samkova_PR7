@@ -89,5 +89,122 @@ namespace Wpf_ISRPO_Samkova_PR7
         {
             MessageBox.Show("Мука, Яйца, Масло сливочное, Сахар, Соль, Ванилин, Масло растительное, Сгущёнка варёная, Сахарная пудра");
         }
+
+        private void Chena1_Click(object sender, RoutedEventArgs e)
+        {
+            double it = double.Parse(Itog.Text);
+            double plus = 250;
+            double itog = it + plus;
+            Itog.Text = itog.ToString();
+            Pokupka.Text += Environment.NewLine + "Суп Сицилия = " + plus.ToString() + " руб.";
+        }
+
+        private void Chena2_Click(object sender, RoutedEventArgs e)
+        {
+            double it = double.Parse(Itog.Text);
+            double plus = 300;
+            double itog = it + plus;
+            Itog.Text = itog.ToString();
+            Pokupka.Text += Environment.NewLine + "Уха по царски = " + plus.ToString() + " руб.";
+        }
+
+        private void Chena3_Click(object sender, RoutedEventArgs e)
+        {
+            double it = double.Parse(Itog.Text);
+            double plus = 500;
+            double itog = it + plus;
+            Itog.Text = itog.ToString();
+            Pokupka.Text += Environment.NewLine + "Суп Сицилия = " + plus.ToString() + " руб.";
+        }
+
+        private void Chena4_Click(object sender, RoutedEventArgs e)
+        {
+            double it = double.Parse(Itog.Text);
+            double plus = 300;
+            double itog = it + plus;
+            Itog.Text = itog.ToString();
+            Pokupka.Text += Environment.NewLine + "Кремлёвский борщ = " + plus.ToString() + " руб.";
+        }
+
+        private void Chena5_Click(object sender, RoutedEventArgs e)
+        {
+            double it = double.Parse(Itog.Text);
+            double plus = 200;
+            double itog = it + plus;
+            Itog.Text = itog.ToString();
+            Pokupka.Text += Environment.NewLine + "Брускетта с фаршем и овощами = " + plus.ToString() + " руб.";
+        }
+
+        private void Chena6_Click(object sender, RoutedEventArgs e)
+        {
+            double it = double.Parse(Itog.Text);
+            double plus = 300;
+            double itog = it + plus;
+            Itog.Text = itog.ToString();
+            Pokupka.Text += Environment.NewLine + "Жульен с курицей и грибами = " + plus.ToString() + " руб.";
+        }
+
+        private void Chena7_Click(object sender, RoutedEventArgs e)
+        {
+            double it = double.Parse(Itog.Text);
+            double plus = 350;
+            double itog = it + plus;
+            Itog.Text = itog.ToString();
+            Pokupka.Text += Environment.NewLine + "Джамбалайя = " + plus.ToString() + " руб.";
+        }
+
+        private void Chena8_Click(object sender, RoutedEventArgs e)
+        {
+            double it = double.Parse(Itog.Text);
+            double plus = 300;
+            double itog = it + plus;
+            Itog.Text = itog.ToString();
+            Pokupka.Text += Environment.NewLine + "Лапша удон с курицей и овощами в соусе терияки = " + plus.ToString() + " руб.";
+        }
+
+        private void Chena1_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            double it = double.Parse(Itog.Text);
+            double plus = 250;
+            double itog = it + plus;
+            Itog.Text = itog.ToString();
+            Pokupka.Text += Environment.NewLine + "Вафельные трубочки = " + plus.ToString() + " руб.";
+        }
+
+        private void Chena1_Copy1_Click(object sender, RoutedEventArgs e)
+        {
+            double it = double.Parse(Itog.Text);
+            double plus = 150;
+            double itog = it + plus;
+            Itog.Text = itog.ToString();
+            Pokupka.Text += Environment.NewLine + "Махито = " + plus.ToString() + " руб.";
+        }
+
+        private void Chena1_Copy2_Click(object sender, RoutedEventArgs e)
+        {
+            double it = double.Parse(Itog.Text);
+            double plus = 100;
+            double itog = it + plus;
+            Itog.Text = itog.ToString();
+            Pokupka.Text += Environment.NewLine + "Холодный чай = " + plus.ToString() + " руб.";
+        }
+
+        private void Chena1_Copy3_Click(object sender, RoutedEventArgs e)
+        {
+            double it = double.Parse(Itog.Text);
+            double plus = 150;
+            double itog = it + plus;
+            Itog.Text = itog.ToString();
+            Pokupka.Text += Environment.NewLine + "Молочный коктель = " + plus.ToString() + " руб.";
+        }
+
+        private void Chena1_Copy4_Click(object sender, RoutedEventArgs e)
+        {
+            double it = double.Parse(Itog.Text);
+            double plus = 200;
+            double itog = it + plus;
+            Itog.Text = itog.ToString();
+            Pokupka.Text += Environment.NewLine + "Зелёный смузи = " + plus.ToString() + " руб.";
+        }
     }
 }
